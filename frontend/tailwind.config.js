@@ -77,5 +77,9 @@ module.exports = {
         },
     },
     variants: {},
-    plugins: []
+    plugins: [
+        require('tailwindcss'),
+        require('precss'),
+        require('autoprefixer'),
+    ],
 };
