@@ -1,4 +1,10 @@
-import { BaseEntity, Entity, PrimaryKey, Property, Unique } from "@mikro-orm/core";
+import {
+    BaseEntity,
+    Entity,
+    PrimaryKey,
+    Property,
+    Unique,
+} from "@mikro-orm/core";
 
 @Entity()
 @Unique({ properties: ["handle"] })
