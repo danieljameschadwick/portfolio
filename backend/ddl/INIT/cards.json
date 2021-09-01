@@ -63,7 +63,8 @@
         "cardType": "WORK",
         "title": "Routing Optimisation System",
         "description": "<p>My first project at Wren Kitchens was on the TREK team working on the new logistics microservice to manage Design Surveyor routing. The stack included Symfony 4, MySQL 8, Twig, LESS, JavaScript, RabbitMQ, and Guzzle.</p><p>As part of the project, we leveraged a third party service - integrated through Guzzle RESTful API calls - to manage our routing logic whilst still maintaining our data set within the microservice using Doctrine ORM.</p>",
-        "displayOrder": 10
+        "displayOrder": 10,
+        "imagePath": "/img/my_work/route_optimiser.png"
     },
     {
         "cardType": "WORK",
