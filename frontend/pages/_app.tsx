@@ -1,7 +1,7 @@
 require('intersection-observer');
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import { AppProps } from "next/app";
-import "../styles/base.less";
+import "../styles/base.scss";
 
 const client = new ApolloClient({
     uri: "http://localhost:4000/graphql", // @TODO: env var process.env.API
