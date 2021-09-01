@@ -1,0 +1,91 @@
+[
+    {
+        "cardType": "SKILL",
+        "title": "PHP7",
+        "description": "<p>I was formally introduced to PHP in 2015, but had previous experience using the language, and have been using it for both professional and personal projects. I started off with processing scripts for orders, email scheduling, product management and moved on to Content Management Systems and then onto frameworks such as Symfony.</p><p>I have managed entities with Doctrine ORM, created RESTful APIs with FOSRest, managing forms within Symfony Forms, and used many more libraries to build intuitive and sophisticated solutions.</p>",
+        "displayOrder": 10
+    },
+    {
+        "cardType": "SKILL",
+        "title": "NodeJS",
+        "description": "<p>Although I have ventured into NodeJS recently, my backend skills from Symfony and frontend JavaScript knowledge have enabled me to quickly come upto speed quickly.</p><p>At Wren, I worked for a few months on the JavaScript team for a new microservice and designed the architecture and stack for the future NodeJS service. I also developed APIs for an Express microservice which exposed feature flags for our applications, and another for exposing data to an elastic index.</p><p>I also have experience using NestJS and that is the backend service which drives this portfolio - using GraphQL endpoints.</p>",
+        "displayOrder": 20
+    },
+    {
+        "cardType": "SKILL",
+        "title": "SQL",
+        "description": "<p>I have been using SQL since working at my IT apprenticeship. I was first introduced to MySQL/MariaDB and PostgreSQL for help storing my data structures for reports, product management (stock) and email subscriber lists. I have used other SQL variants such as MSSQL and Oracle whilst studying. I am proficient in creating my own schemas for complex data systems such as my work recently on an expandable Survey system using Doctrine and relating it to a MySQL 8.0 database.</p>",
+        "displayOrder": 30
+    },
+    {
+        "cardType": "SKILL",
+        "title": "HTML/CSS",
+        "description": "<p>HTML/CSS markup have been one of my first skills I learnt around 10 years ago. I am experienced in frontend design for any medium from CMS, dashboards, product pages, and email templates. Recently, I have adapted my skills using CSS into adopting LESS as it allows for much cleaner stylesheets that are much cleaner than vanilla CSS.</p>",
+        "displayOrder": 40
+    },
+    {
+        "cardType": "SKILL",
+        "title": "JavaScript",
+        "description": "<p>Originally starting to use JavaScript for simple website modifications for modals and click event handling and now to much more modern solutions using Webpack. Also routing API calls I have used JavaScript to communicate with Symfony APIs to populate dashboard data. Furthermore, I developed a 2D canvas which handled object collisions in vanilla JS - whilst at University. This whole site is built with React!</p>",
+        "displayOrder": 50
+    },
+    {
+        "cardType": "SKILL",
+        "title": "React",
+        "description": "<p>On my initial portfolio upgrade I used React alongside Twig to add some modularity (in components). I have since moved to using React/Typescript and then progressed to using NextJS for SSR for SEO reasons.</p><p>This has improved my core JavaScript skills and improved my workflow now I can write the same language on the frontend and the backend.</p>",
+        "displayOrder": 60
+    },
+    {
+        "cardType": "SKILL",
+        "title": "Testing",
+        "description": "<p>I first started testing at University whilst learning C#. Unit Testing was core to the curriculum and thus good practices have carried over to other such testing in PHP (PHPUnit). I am confident in being able to write testable code which can ensure the robustness of any application.</p><p>I have experience writing Behat tests to functionally test at my applications. One of the main ways I have applied Behat is through using Mink, Selenium and Chrome headless browsing for automated tests to emulate user behaviour.</p>",
+        "displayOrder": 60
+    },
+    {
+        "cardType": "SKILL",
+        "title": "AMQP",
+        "description": "<p>I learnt the fundamentals of AMQP whilst working for Wren Kitchens and using messages for queuing background processes. Worked on processes mainly related to file upload and processing. This was implemented using RabbitMQ broker.</p>",
+        "displayOrder": 70
+    },
+    {
+        "cardType": "SKILL",
+        "title": "Elastic",
+        "description": "<p>I used ElasticSearch in the aforementioned CSV parser to efficiently search through the parsed stock table which was populated through Symfony application using FOSElastica. Anytime a CSV was parsed the Elastic structure was re-populated.</p><p>More recently, I created an index which is populated from a monolithic application which can be accessed through a NodeJS API endpoint using an implementation of elastic builder.</p>",
+        "displayOrder": 80
+    },
+    {
+        "cardType": "SKILL",
+        "title": "AWS",
+        "description": "<p>I am proficient in using different AWS services when developing for distributed systems. Whether is be S3 for storing images, videos and uploads or CloudWatch for application logs such as AMQP consumer logs.</p>",
+        "displayOrder": 90
+    },
+    {
+        "cardType": "WORK",
+        "title": "Routing Optimisation System",
+        "description": "<p>My first project at Wren Kitchens was on the TREK team working on the new logistics microservice to manage Design Surveyor routing. The stack included Symfony 4, MySQL 8, Twig, LESS, JavaScript, RabbitMQ, and Guzzle.</p><p>As part of the project, we leveraged a third party service - integrated through Guzzle RESTful API calls - to manage our routing logic whilst still maintaining our data set within the microservice using Doctrine ORM.</p>",
+        "displayOrder": 10
+    },
+    {
+        "cardType": "WORK",
+        "title": "events",
+        "description": "<p>A simple way to have your mates pay for a group booking. A side project I started to try out the latest libraries such as TailwindCSS, Symfony Framework 5 and React.</p>",
+        "displayOrder": 20,
+        "imagePath": "/img/my_work/events.png",
+        "technologies": ["PHP","SYMFONY","REACT","TAILWIND"]
+    },
+    {
+        "cardType": "WORK",
+        "title": "Brewery Management System",
+        "description": "<p>As part of my dissertation, whilst studying at the University of Hull, I completed a bespoke business application specifically for breweries. The main idea was to have a wide array of stock management options to enable proactive stocking through an Android application.</p><p>The final project saw a solid Stock Inventory system written in C# driven by a PHP RESTful API built upon a MySQL database. A C# Point of Sale application with order processing was also completed in the same application. Furthermore, an Android application was also initially developed to handle stock scanning/reading and editing on the go.</p>",
+        "displayOrder": 30,
+        "imagePath": "/img/my_work/siapos.png"
+    },
+    {
+        "cardType": "WORK",
+        "title": "Business Dashboard",
+        "description": "<p>At the Workwear Outlet I was tasked to build a business reporting dashboard for any sort of business data which needed reporting. This could be from order processing statuses, processor health checks, sales reporting, email marketing statistics, etc.</p><p>The dashboard utilised PHP for the executing of database queries and the data was displayed in, mostly, CSS grids or JQuery Flotcharts dependant on the data. This made the dashboard easy display meaningful information to a manager.</p>",
+        "displayOrder": 40,
+        "subTitle": "(modash)",
+        "imagePath": "/img/my_work/modash.jpg"
+    }
+]

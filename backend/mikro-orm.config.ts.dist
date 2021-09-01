@@ -6,6 +6,6 @@ export default {
         Card
     ],
     dbName: "portfolio",
-    type: "postgresql",
+    type: "mongo",
     namingStrategy: EntityCaseNamingStrategy,
 };
