@@ -4,7 +4,7 @@ import { BaseEntity, Entity, PrimaryKey, Property, Unique } from "@mikro-orm/cor
 @Unique({ properties: ["handle"] })
 export class Technology extends BaseEntity<Technology, "_id"> {
     @PrimaryKey()
-    _id!: number;
+    _id!: string;
 
     @Property()
     handle!: string;

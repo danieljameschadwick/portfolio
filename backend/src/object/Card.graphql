@@ -1,5 +1,5 @@
 type Card {
-    _id: Int!
+    _id: String!
     cardType: String!
     title: String!
     description: String!
@@ -10,6 +10,6 @@ type Card {
 }
 
 type Query {
-    card(_id: Int!): Card,
+    card(_id: String!): Card,
     cards(cardType: String): [Card],
 }

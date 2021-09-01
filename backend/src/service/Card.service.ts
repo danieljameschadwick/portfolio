@@ -14,7 +14,7 @@ export class CardService {
         private readonly em: EntityManager,
     ) {}
 
-    getOneById(id: number): Promise<Card> {
+    getOneById(id: string): Promise<Card> {
         return this.cardRepository.findOneOrFail({
             _id: id,
         });

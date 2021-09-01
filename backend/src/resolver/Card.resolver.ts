@@ -10,7 +10,7 @@ export class CardResolver {
     ) {}
 
     @Query(returns => Card)
-    async card(@Args('_id', { type: () => Int }) id: number): Promise<Card> {
+    async card(@Args('_id', { type: () => String }) id: string): Promise<Card> {
         return await this.cardService.getOneById(id);
     }
 

@@ -1,6 +1,6 @@
 type Props = {
     title: string;
-    subTitle: string;
+    subTitle?: string | null;
 };
 
 export const CardHeaderTitle: React.FC<Props> = ({ title, subTitle }) => {
