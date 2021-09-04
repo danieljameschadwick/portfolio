@@ -8,19 +8,19 @@
 
 .navbar
 {
-    @apply z-overlay;
+    @apply z-overlay py-4;
 
     overflow:         hidden;
     background-color: #333333;
 
-    a
+    .title
     {
-        float:           left;
-        display:         block;
-        color:           #F2F2F2;
-        text-align:      center;
-        padding:         14px 16px;
-        text-decoration: none;
+        @apply text-white fill-current font-semibold text-xl tracking-tight no-underline mb-3 sm:mb-0;
+    }
+
+    .social-icon
+    {
+        @apply mx-1 px-1;
     }
 }
 

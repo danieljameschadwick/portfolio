@@ -8,9 +8,9 @@ export const About: React.FC = () => {
                     <h2 className="heading">About Me</h2>
 
                     <p>
-                        Developer at Wren Kitchens working with mainly PHP7/Symfony Framework, LESS/CSS, JavaScript,
-                        Twig/HTML, MySQL on a variety of internal and external services. Also experienced using Doctrine ORM,
-                        PHPUnit, Behat, RabbitMQ, AWS, Docker, and Elasticsearch.
+                        Developer at i6 working with mainly PHP7/Symfony, JavaScript, Twig/HTML/Mustache, MongoDB.
+                        Also experienced using Doctrine ORM, MySQL 8.0, PHPUnit, Behat, RabbitMQ, AWS, Google Cloud, Docker,
+                        and Elasticsearch.
                     </p>
 
                     <p>
