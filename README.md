@@ -8,4 +8,4 @@ NextJS application styled with TailwindCSS 2.
 
 ## backend
 
-NestJS application using MySQL 8.0.
+NestJS application using MongoDB 4.4.
