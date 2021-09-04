@@ -1,9 +1,9 @@
 import { Module } from "@nestjs/common";
 import { CardController } from "../controller/Card.controller";
 import { MikroOrmModule } from "@mikro-orm/nestjs";
-import { CardService } from "../service/Card.service";
+import { CardService } from "../service/CardService";
 import { Card } from "../entity/Card/Card";
-import { CardResolver } from "../resolver/Card.resolver";
+import { CardResolver } from "../resolver/CardResolver";
 
 @Module({
     imports: [

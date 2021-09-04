@@ -1,6 +1,6 @@
-import { Args, Int, Query, Resolver } from "@nestjs/graphql";
+import { Args, Query, Resolver } from "@nestjs/graphql";
 import { Card } from "../entity/Card/Card";
-import { CardService } from "../service/Card.service";
+import { CardService } from "../service/CardService";
 import { CardType } from "../enum/CardType";
 
 @Resolver(of => Card)
