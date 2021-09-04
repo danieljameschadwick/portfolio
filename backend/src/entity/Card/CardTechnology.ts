@@ -6,7 +6,7 @@ import { Technology } from "./Technology";
 @Unique({ properties: ["handle"] })
 export class CardTechnology extends BaseEntity<CardTechnology, "_id"> {
     @PrimaryKey()
-    _id!: number;
+    _id!: string;
 
     @Property()
     card!: Card;

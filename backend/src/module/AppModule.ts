@@ -1,8 +1,8 @@
 import { Module } from "@nestjs/common";
-import { CardModule } from "./Card.module";
+import { CardModule } from "./CardModule";
 import { MikroOrmModule } from "@mikro-orm/nestjs";
 import { GraphQLModule } from "@nestjs/graphql";
-import { GqlConfigService } from "../service/GqlConfig.service";
+import { GqlConfigService } from "../service/GqlConfigService";
 
 @Module({
     imports: [

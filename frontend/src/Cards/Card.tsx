@@ -7,9 +7,9 @@ import { isEmpty } from "../util/array";
 type Props = {
     imagePath: string;
     title: string;
-    subTitle: string;
+    subTitle?: string | null;
     description: string;
-    technologies: string[];
+    technologies?: string[] | null;
 };
 
 export const Card: React.FC<Props> = ({ imagePath, title, subTitle, description, technologies }) => {
@@ -21,7 +21,7 @@ export const Card: React.FC<Props> = ({ imagePath, title, subTitle, description,
                 </div>
 
                 <div className="grid-item-content">
-                    {!isEmpty(technologies) ?
+                    {technologies && !isEmpty(technologies) ?
                         <CardTechnologies
                             technologies={technologies}
                         />

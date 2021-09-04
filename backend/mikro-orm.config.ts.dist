@@ -1,11 +1,9 @@
-import { Card } from "./src/entity/Card";
+import { Card } from "./src/entity/Card/Card";
 import { EntityCaseNamingStrategy } from "@mikro-orm/core";
 
 export default {
     entities: [
         Card
     ],
-    dbName: "portfolio",
-    type: "postgresql",
     namingStrategy: EntityCaseNamingStrategy,
 };
