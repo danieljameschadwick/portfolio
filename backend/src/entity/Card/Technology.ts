@@ -3,6 +3,7 @@ import {
     Entity,
     PrimaryKey,
     Property,
+    SerializedPrimaryKey,
     Unique,
 } from "@mikro-orm/core";
 
@@ -11,6 +12,9 @@ import {
 export class Technology extends BaseEntity<Technology, "_id"> {
     @PrimaryKey()
     _id!: string;
+
+    @SerializedPrimaryKey()
+    id!: string;
 
     @Property()
     handle!: string;

@@ -1,5 +1,5 @@
 import { Module } from "@nestjs/common";
-import { CardController } from "../controller/Card.controller";
+import { CardController } from "../controller/CardController";
 import { MikroOrmModule } from "@mikro-orm/nestjs";
 import { CardService } from "../service/CardService";
 import { Card } from "../entity/Card/Card";

@@ -2,9 +2,6 @@
 /dist
 /node_modules
 
-# Env
-mikro-orm.config.ts
-
 # Logs
 logs
 *.log
@@ -38,3 +35,4 @@ lerna-debug.log*
 
 # Env/config
 .env
+mikro-orm.config.ts

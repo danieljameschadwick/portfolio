@@ -1,4 +1,11 @@
-import { BaseEntity, Entity, PrimaryKey, Property, Unique } from "@mikro-orm/core";
+import {
+    BaseEntity,
+    Entity,
+    PrimaryKey,
+    Property,
+    SerializedPrimaryKey,
+    Unique,
+} from "@mikro-orm/core";
 import { Card } from "./Card";
 import { Technology } from "./Technology";
 
@@ -7,6 +14,9 @@ import { Technology } from "./Technology";
 export class CardTechnology extends BaseEntity<CardTechnology, "_id"> {
     @PrimaryKey()
     _id!: string;
+
+    @SerializedPrimaryKey()
+    id!: string;
 
     @Property()
     card!: Card;

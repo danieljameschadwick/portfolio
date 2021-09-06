@@ -4,6 +4,7 @@ import {
     Enum,
     PrimaryKey,
     Property,
+    SerializedPrimaryKey,
     Unique,
 } from "@mikro-orm/core";
 import { CardType } from "../../enum/CardType";
@@ -15,6 +16,9 @@ import { CardDTO } from "../../dto/CardDTO";
 export class Card extends BaseEntity<Card, "_id"> {
     @PrimaryKey()
     _id!: string;
+
+    @SerializedPrimaryKey()
+    id!: string;
 
     @Enum(() => CardType)
     cardType!: CardType;
