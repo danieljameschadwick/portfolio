@@ -1,7 +1,7 @@
-import { RefObject, useEffect, useRef, useState } from "react";
+import { MutableRefObject, useEffect, useRef, useState } from "react";
 
-export const useElementOnScreen = () => {
-    const containerRef = useRef<Element>(null);
+export const useElementOnScreen: () => [ MutableRefObject<HTMLDivElement>, boolean ] = () => {
+    const containerRef = useRef<HTMLDivElement>(null);
     const [isVisible, setIsVisible] = useState<boolean>(false);
 
     const callbackFunction = (entries) => {

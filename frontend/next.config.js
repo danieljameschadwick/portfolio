@@ -7,10 +7,6 @@ module.exports = {
         LINKEDIN: "https://linkedin.com/in/danieljchadwick",
         CV: "/curriculum_vitae.pdf",
     },
-    typescript: {
-        // @TODO: hot fix just to test out Netlify
-        ignoreBuildErrors: true,
-    },
     sassOptions: {
         includePaths: [
             path.join(__dirname, "styles")

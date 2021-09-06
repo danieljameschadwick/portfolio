@@ -19,17 +19,17 @@ const skills = gql`
 export const Skills: React.FC = () => {
     const { loading, error, data } = useQuery(skills);
 
-    if (loading) return "Loading...";
-    if (error) return `Error! ${error.message}`;
+    if (loading) return <div>Loading...</div>;
+    if (error) return <div>Error! {error.message}</div>;
 
     return (
         <div className={"grid-row info-row"}>
             {data.cards.map((skill) => {
-                const { _id, imagePath, title, subTitle, description, technologies } = skill;
+                const { id, imagePath, title, subTitle, description, technologies } = skill;
 
                 return (
                     <Card
-                        key={_id}
+                        key={id}
                         imagePath={imagePath}
                         title={title}
                         subTitle={subTitle}

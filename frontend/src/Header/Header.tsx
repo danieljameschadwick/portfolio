@@ -1,4 +1,3 @@
-import { useRef, useState } from "react";
 import { Splash } from "../Splash";
 import { Navbar } from "../Navbar";
 import { useElementOnScreen } from "../util/useElementOnScreen";

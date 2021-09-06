@@ -3,7 +3,7 @@ import Typed from "react-typed";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export const Splash = forwardRef((props, ref: RefObject<Element>) => {
+export const Splash = forwardRef((props, ref: RefObject<HTMLDivElement>) => {
     return (
         <div className={`bg`} ref={ref}>
             {/*

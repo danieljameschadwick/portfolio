@@ -19,17 +19,17 @@ const work = gql`
 export const Works: React.FC = () => {
     const { loading, error, data } = useQuery(work);
 
-    if (loading) return "Loading...";
-    if (error) return `Error! ${error.message}`;
+    if (loading) return <div>Loading...</div>
+    if (error) return <div>Error! {error.message}</div>;
 
     return (
         <div className={"grid-row info-row"}>
             {data.cards.map((work) => {
-                const { _id, imagePath, title, subTitle, description, technologies } = work;
+                const { id, imagePath, title, subTitle, description, technologies } = work;
 
                 return (
                     <Card
-                        key={_id}
+                        key={id}
                         imagePath={imagePath}
                         title={title}
                         subTitle={subTitle}
