@@ -43,7 +43,7 @@ export const Splash = forwardRef((props, ref: RefObject<HTMLDivElement>) => {
                             <FontAwesomeIcon className={"icon"} icon={faGithub} />
                         </a>
 
-                        <a className={"fade-link show"} href={"#"}>
+                        <a className={"fade-link show"} href={process.env.CV}>
                             <img className={"icon"} src={"img/social_cv.png"}  alt="CV"/>
                         </a>
                     </div>
