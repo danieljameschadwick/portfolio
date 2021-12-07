@@ -34,6 +34,8 @@
 
 .fade-link
 {
+    @apply max-w-30 max-h-35 m-2;
+
     &:hover
     {
         text-decoration: none;
@@ -41,7 +43,7 @@
 
     .icon
     {
-        @apply h-auto w-auto max-w-35 max-h-30 mx-1 fill-current text-white;
+        @apply h-auto w-auto fill-current text-white;
     }
 
     svg.icon
@@ -101,5 +103,4 @@
 .social-links img
 {
     height: 35px;
-    margin: 5px;
 }
