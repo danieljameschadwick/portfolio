@@ -33,13 +33,13 @@ export const Splash = forwardRef((props, ref: RefObject<HTMLDivElement>) => {
                 <div className={"social-links"}>
                     <div className={"link-container"}>
                         <a className={"fade-link show"}
-                           href={"https://www.linkedin.com/in/danieljchadwick/"}
+                           href={process.env.LINKEDIN}
                            target={"_blank"}
                         >
                             <FontAwesomeIcon className={"icon"} icon={faLinkedin} />
                         </a>
 
-                        <a className={"fade-link show"} href={"https://github.com/danis2gd"} target={"_blank"}>
+                        <a className={"fade-link show"} href={process.env.GITHUB} target={"_blank"}>
                             <FontAwesomeIcon className={"icon"} icon={faGithub} />
                         </a>
 
