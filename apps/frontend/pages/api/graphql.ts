@@ -28,8 +28,12 @@ const resolvers = {
         },
       });
     },
-    cards: async () => {
-      return await prisma.card.findMany();
+    cards: async (cardType: string) => {
+      return await prisma.card.findMany({
+        where: {
+          cardType,
+        },
+      });
     },
   },
 };

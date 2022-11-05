@@ -2,9 +2,9 @@ import { Card } from "./Cards/Card";
 import { gql, useQuery } from "@apollo/client";
 
 const skills = gql`
-    query Skills {
+    query Query {
         cards(cardType: "SKILL") {
-            _id,
+            id,
             cardType
             title,
             description,
