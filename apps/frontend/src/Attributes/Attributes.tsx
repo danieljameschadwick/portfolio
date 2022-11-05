@@ -8,6 +8,7 @@ export const Attributes: React.FC = () => {
                     title={"Frontend"}
                     caption={"Specialising in response, modern, designs which translate to any business ranging from small businesses to large enterprises."}
                     skills={[
+                        "React",
                         "HTML/CSS",
                         "LESS/SASS",
                         "JavaScript",
@@ -15,14 +16,13 @@ export const Attributes: React.FC = () => {
                         "Twig",
                     ]}
                     studying={[
-                        "React",
                         "NextJS",
                     ]}
                 />
 
                 <Attribute
                     title={"Backend"}
-                    caption={"Responsible for developing applications which can scale for thousands of users - both for internal users or public. Experienced in developing standalone applications with cached data, microservices and monolithic applications."}
+                    caption={"Responsible for developing applications which can scale to the masses - for both internal users or public. Experienced in developing standalone applications with cached data, microservices and monolithic applications."}
                     skills={[
                         "PHP7",
                         "Symfony Framework 3/4",

@@ -2,7 +2,7 @@ import { CardTechnologies } from "./CardTechnologies";
 import { CardHeaderTitle } from "./CardHeaderTitle";
 import { CardDescription } from "./CardDescription";
 import { CardImage } from "./CardImage";
-import { isEmpty } from "../util/array";
+import { isEmpty } from "../util/isEmpty";
 
 type Props = {
     imagePath: string;

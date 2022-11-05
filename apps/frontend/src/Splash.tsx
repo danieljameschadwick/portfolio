@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Splash = forwardRef((props, ref: RefObject<HTMLDivElement>) => {
     return (
-        <div className={`bg`} ref={ref}>
+        <div className={"bg"} ref={ref}>
             {/*
                  <!-- splash page
                      Image belongs to Andi Campbell Jones
