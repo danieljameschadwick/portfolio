@@ -34,3 +34,6 @@ yarn-error.log*
 # ide
 .idea
 .DS_Store
+
+# Env/config
+.env
