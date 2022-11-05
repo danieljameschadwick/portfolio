@@ -1,9 +1,9 @@
 import { Card } from "./Cards/Card";
 import { gql, useQuery } from "@apollo/client";
 
-const skills = gql`
-    query Skills {
-        cards(cardType: "SKILL") {
+const work = gql`
+    query Work {
+        cards(cardType: "WORK") {
             _id,
             cardType
             title,
@@ -16,20 +16,20 @@ const skills = gql`
     }
 `;
 
-export const Skills: React.FC = () => {
-    const { loading, error, data } = useQuery(skills);
+export const Works: React.FC = () => {
+    const { loading, error, data } = useQuery(work);
 
-    if (loading) return <div>Loading...</div>;
+    if (loading) return <div>Loading...</div>
     if (error) return <div>Error! {error.message}</div>;
 
     return (
         <div className={"grid-row info-row"}>
-            {data.cards.map((skill) => {
-                const { id, imagePath, title, subTitle, description, technologies } = skill;
+            {data.cards.map((work, index) => {
+                const { imagePath, title, subTitle, description, technologies } = work;
 
                 return (
                     <Card
-                        key={id}
+                        key={index}
                         imagePath={imagePath}
                         title={title}
                         subTitle={subTitle}
