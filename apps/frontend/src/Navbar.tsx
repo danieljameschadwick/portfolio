@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import Image from "next/image";
 
 interface Props {
   sticky: boolean;
@@ -40,7 +41,13 @@ export const Navbar: React.FC<Props> = ({ sticky = false }) => {
             <FontAwesomeIcon className={"social-icon"} icon={faGithub} />
           </a>
           <a className={"social-link"} href={process.env.CV} target={"_blank"}>
-            <img className={"social-icon"} src={"img/social_cv.png"} alt="CV" />
+            <Image
+              className={"social-icon"}
+              src={"/img/social_cv.png"}
+              alt="CV"
+              height="30"
+              width="30"
+            />
           </a>
         </div>
       </div>
