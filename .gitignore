@@ -1,4 +1,11 @@
 /.idea
+node_modules/
 
 # macOS
 .DS_Store
+
+# Turbo
+.turbo
+build/**
+dist/**
+.next/**

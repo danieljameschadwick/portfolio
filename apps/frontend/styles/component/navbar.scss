@@ -1,0 +1,106 @@
+// @TODO: move to base layout
+.header
+{
+    background-color: #F1F1F1;
+    padding:          30px;
+    text-align:       center;
+}
+
+.navbar
+{
+    @apply z-overlay py-4;
+
+    overflow:         hidden;
+    background-color: #333333;
+
+    .title
+    {
+        @apply text-white fill-current font-semibold text-xl tracking-tight no-underline mb-3 sm:mb-0;
+    }
+
+    .social-icon
+    {
+        // @apply mx-1 px-1;
+    }
+}
+
+.sticky
+{
+    position:      fixed;
+    top:           0;
+    width:         100%;
+    border-bottom: 1px solid rgba(236, 236, 236, 0.5);
+}
+
+.contact-link
+{
+    padding-left:    5px;
+    padding-right:   5px;
+    color:           rgba(255, 255, 255, .5);
+    text-decoration: none;
+}
+
+.contact-link:hover
+{
+    color:           rgba(255, 255, 255, .75);
+    text-decoration: none;
+}
+
+.contact-link:focus
+{
+    text-decoration: none;
+}
+
+.social-bar
+{
+    @apply flex flex-none gap-3 items-center;
+
+    svg.social-icon
+    {
+        @apply w-full;
+    }
+}
+
+.social-link
+{
+    @apply inline-flex;
+}
+
+.social-icon
+{
+    @apply w-auto h-auto max-w-35 max-h-30 fill-current text-white;
+
+    &:last-child
+    {
+        // @apply mr-0;
+    }
+}
+
+@media (max-width: 370px)
+{
+    .navbar-toggler
+    {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 680px)
+{
+    .brand-logo
+    {
+        display: block;
+    }
+
+    .brand-name
+    {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 680px)
+{
+    .brand-logo
+    {
+        display: none;
+    }
+}

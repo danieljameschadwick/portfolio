@@ -1,0 +1,105 @@
+.bg
+{
+    @apply h-screen;
+
+    background-image:    url("/img/humber.jpg");
+    background-position: center;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    transition:          all 0.3s ease-in-out;
+}
+
+.link-container
+{
+    @apply flex items-center justify-center;
+
+    width:  150px;
+    margin: auto;
+    height: 40px;
+
+    &:hover
+    {
+        .icon
+        {
+            opacity: 0.5;
+
+            &:hover
+            {
+                opacity: 1.0;
+            }
+        }
+    }
+}
+
+.fade-link
+{
+    @apply inline-flex max-w-30 max-h-35 m-2;
+
+    &:hover
+    {
+        text-decoration: none;
+    }
+
+    .icon
+    {
+        @apply h-auto w-auto fill-current text-white;
+    }
+
+    svg.icon
+    {
+        @apply w-full;
+    }
+}
+
+.caption
+{
+    margin:     0;
+    position:   relative;
+    top:        50%;
+    left:       50%;
+    transform:  translate(-50%, -50%);
+    text-align: center;
+    color:      white;
+}
+
+.name
+{
+    font-size: 50px;
+}
+
+.title
+{
+    font-size: 26px;
+}
+
+.links .quickInfo
+{
+    line-height: 50px;
+    height:      50px;
+    margin:      10px 20% 0 20%;
+}
+
+.links img
+{
+    height: 50px;
+}
+
+.copyrightText
+{
+    margin:     0;
+    position:   relative;
+    top:        50%;
+    left:       50%;
+    text-align: center;
+    color:      white;
+}
+
+.social-links
+{
+    margin: 10px 0 0 0;
+}
+
+.social-links img
+{
+    height: 35px;
+}
