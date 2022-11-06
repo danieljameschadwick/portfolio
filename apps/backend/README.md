@@ -1,4 +1,7 @@
-# backcourt
+# backend
+
+This backend is deprecated after implementing API routes within NextJS.
+
 ## Installation
 
 ```bash
