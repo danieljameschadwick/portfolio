@@ -20,7 +20,7 @@
 
     .social-icon
     {
-        @apply mx-1 px-1;
+        // @apply mx-1 px-1;
     }
 }
 
@@ -53,7 +53,7 @@
 
 .social-bar
 {
-    @apply flex flex-none items-center;
+    @apply flex flex-none gap-3 items-center;
 
     svg.social-icon
     {
@@ -61,13 +61,18 @@
     }
 }
 
+.social-link
+{
+    @apply inline-flex;
+}
+
 .social-icon
 {
-    @apply w-auto h-auto max-w-35 max-h-30 mr-2 fill-current text-white;
+    @apply w-auto h-auto max-w-35 max-h-30 fill-current text-white;
 
     &:last-child
     {
-        @apply mr-0;
+        // @apply mr-0;
     }
 }
 

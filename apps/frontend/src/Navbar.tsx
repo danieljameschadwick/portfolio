@@ -25,13 +25,13 @@ export const Navbar: React.FC<Props> = ({ sticky = false }) => {
         </div>
 
         <div className={"social-bar w-full sm:w-auto justify-center"}>
-          <a href={process.env.GITHUB} className={"px-0"} target={"_blank"}>
-            <FontAwesomeIcon className={"social-icon"} icon={faGithub} />
-          </a>
-          <a href={process.env.LINKEDIN} target={"_blank"}>
+          <a className={"social-link"} href={process.env.LINKEDIN} target={"_blank"}>
             <FontAwesomeIcon className={"social-icon"} icon={faLinkedin} />
           </a>
-          <a href={process.env.CV} target={"_blank"}>
+          <a className={"social-link"} href={process.env.GITHUB} target={"_blank"}>
+            <FontAwesomeIcon className={"social-icon"} icon={faGithub} />
+          </a>
+          <a className={"social-link"} href={process.env.CV} target={"_blank"}>
             <img className={"social-icon"} src={"img/social_cv.png"} alt="CV" />
           </a>
         </div>
