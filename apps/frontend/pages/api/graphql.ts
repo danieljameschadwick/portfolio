@@ -21,14 +21,14 @@ const typeDefs = /* GraphQL */ `
 
 const resolvers = {
   Query: {
-    card: async (id: string) => {
+    card: async (_, { id }) => {
       return await prisma.card.findFirstOrThrow({
         where: {
           id,
         },
       });
     },
-    cards: async (cardType: string) => {
+    cards: async (_, { cardType }) => {
       return await prisma.card.findMany({
         where: {
           cardType,
