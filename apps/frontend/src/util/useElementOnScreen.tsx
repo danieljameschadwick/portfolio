@@ -1,9 +1,10 @@
 import { MutableRefObject, useEffect, useRef, useState } from "react";
 
-export const useElementOnScreen: (defaultVisible: boolean) => [
-  MutableRefObject<HTMLDivElement>,
-  boolean
-] = (defaultVisible: boolean) => {
+export const useElementOnScreen: (
+  defaultVisible: boolean
+) => [MutableRefObject<HTMLDivElement>, boolean] = (
+  defaultVisible: boolean
+) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState<boolean>(defaultVisible);
 

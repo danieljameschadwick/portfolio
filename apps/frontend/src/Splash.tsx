@@ -8,15 +8,15 @@ export const Splash = forwardRef((props, ref: RefObject<HTMLDivElement>) => {
   return (
     <div className={"bg"} ref={ref}>
       {/*
-                 <!-- splash page
-                     Image belongs to Andi Campbell Jones
-                     desc: Humber Sunset – A scenic view up the Humber estuary and on to the iconic Humber bridge.
-                     Taken from the foreshore I loved the way the light of the sunset was reflecting off the pebbles giving
-                     an extra dynamic to this picture.
-    
-                     src: http://andicampbelljones.com/sunsets-sunrises-best-of/
-                 -->
-            */}
+        <!-- splash page
+            Image belongs to Andi Campbell Jones
+            desc: Humber Sunset – A scenic view up the Humber estuary and on to the iconic Humber bridge.
+            Taken from the foreshore I loved the way the light of the sunset was reflecting off the pebbles giving
+            an extra dynamic to this picture.
+
+            src: http://andicampbelljones.com/sunsets-sunrises-best-of/
+        -->
+      */}
 
       <div className={"caption"}>
         <h1 className={"name"}>Daniel Chadwick</h1>
