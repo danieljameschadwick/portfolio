@@ -10,6 +10,10 @@ export const Header: React.FC = () => {
             <Splash ref={containerRef} />
 
             <Navbar sticky={!isVisible} />
+
+            {/* @TODO: probably be better to add some margin instead
+                of duplicating navbars with one being hidden */}
+            {!isVisible ? <Navbar sticky={false} /> : ''}
         </>
     );
 };
