@@ -1,10 +1,9 @@
-const { PHASE_DEVELOPMENT_SERVER } = require('next/constants');
 const path = require("path");
 
-module.exports = (phase) => {
-    const baseConfig = {
+module.exports = () => {
+    return {
         env: {
-            API: "https://api.danielchadwick.co.uk",
+            API: "/api",
             GITHUB: "https://github.com/danieljameschadwick",
             LINKEDIN: "https://linkedin.com/in/danieljchadwick",
             CV: "/curriculum_vitae.pdf",
@@ -19,16 +18,4 @@ module.exports = (phase) => {
             ignoreBuildErrors: true,
         },
     };
-
-    if (phase === PHASE_DEVELOPMENT_SERVER) {
-        return {
-            ...baseConfig,
-            env: {
-                ...baseConfig.env,
-                API: "http://localhost:3000/api",
-            },
-        }
-    }
-
-    return baseConfig;
 };
