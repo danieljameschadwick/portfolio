@@ -9,7 +9,7 @@ export const Footer = () => {
                 </div>
 
                 <p>
-                    Powered by NextJS, NestJS, MongoDB.
+                    Powered by NextJS, and MongoDB.
 
                     <br />
 
