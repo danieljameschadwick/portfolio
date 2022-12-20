@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component renders base 1`] = `
+<body>
+  <div>
+    <footer
+      class="footer-container bg-gray-dark"
+    >
+      <div
+        class="site-info"
+      >
+        <div
+          class="footer-brand"
+        >
+          <img
+            alt="Daniel Chadwick's logo."
+            height="30"
+            src="img/brand_logo.png"
+            width="30"
+          />
+          <span>
+            Daniel Chadwick
+          </span>
+        </div>
+        <p>
+          Powered by NextJS, and MongoDB.
+          <br />
+          <small>
+            Built with TailwindCSS.
+          </small>
+        </p>
+      </div>
+    </footer>
+  </div>
+</body>
+`;

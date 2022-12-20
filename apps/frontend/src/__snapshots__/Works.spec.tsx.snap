@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Works component renders base 1`] = `
+<body>
+  <div>
+    <div>
+      Loading...
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Works component renders cards 1`] = `
+<body>
+  <div>
+    <div
+      class="grid-row info-row"
+    >
+      <div
+        class="grid-item"
+        data-testid="card"
+      >
+        <div
+          class="grid-item-wrapper"
+        >
+          <div
+            class="grid-image-top"
+          >
+            <div>
+              <img
+                alt=""
+                src="/img/my_work/route_optimiser.png"
+              />
+            </div>
+          </div>
+          <div
+            class="grid-item-content"
+          >
+            <div
+              class="title-wrapper"
+            >
+              <span
+                class="item-title"
+              >
+                Routing Optimisation System
+                 
+                <small />
+              </span>
+            </div>
+            <div>
+              <p>
+                My first project at Wren Kitchens was on the TREK team working on the new logistics microservice to manage Design Surveyor routing. The stack included Symfony 4, MySQL 8, Twig, LESS, JavaScript, RabbitMQ, and Guzzle.
+              </p>
+              <p>
+                As part of the project, we leveraged a third party service - integrated through Guzzle RESTful API calls - to manage our routing logic whilst still maintaining our data set within the microservice using Doctrine ORM.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Works component renders error 1`] = `
+<body>
+  <div>
+    <div>
+      Error! 
+      An error occured!
+    </div>
+  </div>
+</body>
+`;

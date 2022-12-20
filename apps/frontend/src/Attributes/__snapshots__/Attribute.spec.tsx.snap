@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Attribute component renders base 1`] = `
+<body>
+  <div>
+    <div
+      class="attribute"
+    >
+      <span
+        class="icon"
+      >
+        <div>
+          <div
+            data-src="img/svg/attribute/test.svg"
+            src=""
+          />
+        </div>
+      </span>
+      <h2
+        class="heading"
+      >
+        Test
+      </h2>
+      <p
+        class="text"
+      />
+      <h3
+        class="heading"
+      >
+        Skills
+      </h3>
+      <ul
+        class="list"
+      >
+        <li>
+          Test
+        </li>
+        <li>
+          Test2
+        </li>
+      </ul>
+      <h3
+        class="heading"
+      >
+        Studying
+      </h3>
+      <ul
+        class="list"
+      >
+        <li>
+          Test
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+`;

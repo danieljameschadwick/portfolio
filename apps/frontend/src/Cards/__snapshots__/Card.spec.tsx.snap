@@ -1,0 +1,419 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component renders base 1`] = `
+<body>
+  <div>
+    <div
+      class="grid-item"
+      data-testid="card"
+    >
+      <div
+        class="grid-item-wrapper"
+      >
+        <div
+          class="grid-image-top"
+        >
+          <div>
+            <img
+              alt=""
+              src="php.png"
+            />
+          </div>
+        </div>
+        <div
+          class="grid-item-content"
+        >
+          <div
+            class="title-wrapper"
+          >
+            <span
+              class="item-title"
+            >
+              PHP7
+               
+              <small />
+            </span>
+          </div>
+          <div>
+            Web technology
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Card component renders optional subTitle 1`] = `
+<body>
+  <div>
+    <div
+      class="grid-item"
+      data-testid="card"
+    >
+      <div
+        class="grid-item-wrapper"
+      >
+        <div
+          class="grid-image-top"
+        >
+          <div>
+            <img
+              alt=""
+              src="php.png"
+            />
+          </div>
+        </div>
+        <div
+          class="grid-item-content"
+        >
+          <div
+            class="title-wrapper"
+          >
+            <span
+              class="item-title"
+            >
+              PHP7
+               
+              <small>
+                Some web technology
+              </small>
+            </span>
+          </div>
+          <div>
+            Web technology
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Card component renders optional technologies 1`] = `
+<body>
+  <div>
+    <div
+      class="grid-item"
+      data-testid="card"
+    >
+      <div
+        class="grid-item-wrapper"
+      >
+        <div
+          class="grid-image-top"
+        >
+          <div>
+            <img
+              alt=""
+              src="work_project.png"
+            />
+          </div>
+        </div>
+        <div
+          class="grid-item-content"
+        >
+          <div
+            class="svg-wrapper"
+          >
+            <div
+              class="svg-item"
+            >
+              <div
+                class=""
+                currentitem="false"
+                data-event="click mousestart mouseover"
+                data-event-off="mouseout"
+                data-for="technologyTip-PHP7"
+                data-tip="true"
+              >
+                <div
+                  data-src="img/svg/PHP7.svg"
+                  src=""
+                />
+              </div>
+              <div
+                class="__react_component_tooltip t64b2051f-40ee-4708-9968-12f651bc5383 place-top type-dark"
+                data-id="tooltip"
+                id="technologyTip-PHP7"
+              >
+                <style
+                  aria-hidden="true"
+                >
+                  
+  	.t64b2051f-40ee-4708-9968-12f651bc5383 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+	    border-radius: undefinedpx;
+	    padding: 8px 21px;
+  	}
+
+  	.t64b2051f-40ee-4708-9968-12f651bc5383.place-top {
+        margin-top: -10px;
+    }
+    .t64b2051f-40ee-4708-9968-12f651bc5383.place-top::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: 2;
+        width: 18px;
+        height: 10px;
+    }
+    .t64b2051f-40ee-4708-9968-12f651bc5383.place-top::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: 1;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        transform: rotate(135deg);
+    }
+
+    .t64b2051f-40ee-4708-9968-12f651bc5383.place-bottom {
+        margin-top: 10px;
+    }
+    .t64b2051f-40ee-4708-9968-12f651bc5383.place-bottom::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: 2;
+        width: 18px;
+        height: 10px;
+    }
+    .t64b2051f-40ee-4708-9968-12f651bc5383.place-bottom::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: 1;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        transform: rotate(45deg);
+    }
+
+    .t64b2051f-40ee-4708-9968-12f651bc5383.place-left {
+        margin-left: -10px;
+    }
+    .t64b2051f-40ee-4708-9968-12f651bc5383.place-left::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: 2;
+        width: 10px;
+        height: 18px;
+    }
+    .t64b2051f-40ee-4708-9968-12f651bc5383.place-left::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: 1;
+        right: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(45deg);
+    }
+
+    .t64b2051f-40ee-4708-9968-12f651bc5383.place-right {
+        margin-left: 10px;
+    }
+    .t64b2051f-40ee-4708-9968-12f651bc5383.place-right::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: 2;
+        width: 10px;
+        height: 18px;
+    }
+    .t64b2051f-40ee-4708-9968-12f651bc5383.place-right::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: 1;
+        left: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(-135deg);
+    }
+  
+                </style>
+                PHP7
+              </div>
+            </div>
+            <div
+              class="svg-item"
+            >
+              <div
+                class=""
+                currentitem="false"
+                data-event="click mousestart mouseover"
+                data-event-off="mouseout"
+                data-for="technologyTip-React"
+                data-tip="true"
+              >
+                <div
+                  data-src="img/svg/React.svg"
+                  src=""
+                />
+              </div>
+              <div
+                class="__react_component_tooltip t06ce20fd-58ac-4e09-a90f-307ca859c263 place-top type-dark"
+                data-id="tooltip"
+                id="technologyTip-React"
+              >
+                <style
+                  aria-hidden="true"
+                >
+                  
+  	.t06ce20fd-58ac-4e09-a90f-307ca859c263 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+	    border-radius: undefinedpx;
+	    padding: 8px 21px;
+  	}
+
+  	.t06ce20fd-58ac-4e09-a90f-307ca859c263.place-top {
+        margin-top: -10px;
+    }
+    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-top::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: 2;
+        width: 18px;
+        height: 10px;
+    }
+    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-top::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: 1;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        transform: rotate(135deg);
+    }
+
+    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-bottom {
+        margin-top: 10px;
+    }
+    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-bottom::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: 2;
+        width: 18px;
+        height: 10px;
+    }
+    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-bottom::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: 1;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        transform: rotate(45deg);
+    }
+
+    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-left {
+        margin-left: -10px;
+    }
+    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-left::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: 2;
+        width: 10px;
+        height: 18px;
+    }
+    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-left::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: 1;
+        right: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(45deg);
+    }
+
+    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-right {
+        margin-left: 10px;
+    }
+    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-right::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: 2;
+        width: 10px;
+        height: 18px;
+    }
+    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-right::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: 1;
+        left: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(-135deg);
+    }
+  
+                </style>
+                React
+              </div>
+            </div>
+          </div>
+          <div
+            class="title-wrapper"
+          >
+            <span
+              class="item-title"
+            >
+              Work Project
+               
+              <small />
+            </span>
+          </div>
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

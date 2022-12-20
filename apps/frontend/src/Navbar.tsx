@@ -4,7 +4,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
 
 interface Props {
-  sticky: boolean;
+  sticky?: boolean;
 }
 
 export const Navbar: React.FC<Props> = ({ sticky = false }) => {

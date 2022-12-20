@@ -14,7 +14,7 @@ type Props = {
 
 export const Card: React.FC<Props> = ({ imagePath, title, subTitle, description, technologies }) => {
     return (
-        <div className="grid-item">
+        <div className="grid-item" data-testid="card">
             <div className="grid-item-wrapper">
                 <div className={"grid-image-top"}>
                     <CardImage imagePath={imagePath} />

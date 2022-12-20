@@ -1,9 +1,0 @@
-import { Card } from "./src/entity/Card/Card";
-import { EntityCaseNamingStrategy } from "@mikro-orm/core";
-
-export default {
-    entities: [
-        Card
-    ],
-    namingStrategy: EntityCaseNamingStrategy,
-};

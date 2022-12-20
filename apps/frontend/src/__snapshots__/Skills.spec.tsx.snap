@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills component renders base 1`] = `
+<body>
+  <div>
+    <div>
+      Loading...
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Skills component renders cards 1`] = `
+<body>
+  <div>
+    <div
+      class="grid-row info-row"
+    >
+      <div
+        class="grid-item"
+        data-testid="card"
+      >
+        <div
+          class="grid-item-wrapper"
+        >
+          <div
+            class="grid-image-top"
+          >
+            <div>
+              <img
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="grid-item-content"
+          >
+            <div
+              class="title-wrapper"
+            >
+              <span
+                class="item-title"
+              >
+                PHP7
+                 
+                <small />
+              </span>
+            </div>
+            <div>
+              <p>
+                I was formally introduced to PHP in 2015, but had previous experience using the language, and have been using it for both professional and personal projects. I started off with processing scripts for orders, email scheduling, product management and moved on to Ecommerce platforming (OSCommerce, Magento, then Opencart) and Content Management Systems, and then onto frameworks such as Symfony.
+              </p>
+              <p>
+                I have managed entities with Doctrine ORM, created RESTful APIs with FOSRest, managing forms within Symfony Forms, and used many more libraries to build intuitive and sophisticated solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid-item"
+        data-testid="card"
+      >
+        <div
+          class="grid-item-wrapper"
+        >
+          <div
+            class="grid-image-top"
+          >
+            <div>
+              <img
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="grid-item-content"
+          >
+            <div
+              class="title-wrapper"
+            >
+              <span
+                class="item-title"
+              >
+                NodeJS
+                 
+                <small />
+              </span>
+            </div>
+            <div>
+              <p>
+                I have commercial experiences working with NodeJS on an Express project for serving data to applications, and a frontend based design tool which used a Service Worker to enable offline usage.
+              </p>
+              <p>
+                At Wren, I worked for a few months on the JavaScript team for a new microservice and designed the architecture and stack for their future NodeJS services. I also developed APIs for an Express microservice which exposed feature flags for our applications, and another for exposing data to an elastic index.
+              </p>
+              <p>
+                I also have experience using NestJS which currently drives the data for this portfolio - leveraging GraphQL endpoints.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Skills component renders error 1`] = `
+<body>
+  <div>
+    <div>
+      Error! 
+      An error occured!
+    </div>
+  </div>
+</body>
+`;

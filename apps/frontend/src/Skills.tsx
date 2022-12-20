@@ -1,7 +1,7 @@
 import { Card } from "./Cards/Card";
 import { gql, useQuery } from "@apollo/client";
 
-const skills = gql`
+export const skillsQuery = gql`
   query Query {
     cards(cardType: "SKILL") {
       id
@@ -17,7 +17,7 @@ const skills = gql`
 `;
 
 export const Skills: React.FC = () => {
-  const { loading, error, data } = useQuery(skills);
+  const { loading, error, data } = useQuery(skillsQuery);
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error! {error.message}</div>;
