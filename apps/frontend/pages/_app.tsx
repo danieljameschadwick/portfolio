@@ -1,7 +1,8 @@
 require("intersection-observer");
 
-import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import { AppProps } from "next/app";
+import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
+import { Analytics } from "@vercel/analytics/react";
 
 import "../styles/base.scss";
 
@@ -16,6 +17,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
       }
     >
       <Component {...pageProps} />
+      <Analytics />
     </ApolloProvider>
   );
 };
