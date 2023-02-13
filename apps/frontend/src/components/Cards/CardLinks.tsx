@@ -6,7 +6,6 @@ interface Props {
 }
 
 export const CardLinks: React.FC<Props> = ({ links }) => {
-  console.log(links);
   return (
     <div className={"card-links__wrapper"}>
       {links.map((link, key) => {
