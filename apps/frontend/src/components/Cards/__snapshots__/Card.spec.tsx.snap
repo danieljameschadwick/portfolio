@@ -120,7 +120,6 @@ exports[`Card component renders optional technologies 1`] = `
               class="svg-item"
             >
               <div
-                class=""
                 currentitem="false"
                 data-event="click mousestart mouseover"
                 data-event-off="mouseout"
@@ -133,7 +132,7 @@ exports[`Card component renders optional technologies 1`] = `
                 />
               </div>
               <div
-                class="__react_component_tooltip t64b2051f-40ee-4708-9968-12f651bc5383 place-top type-dark"
+                class="__react_component_tooltip t68269329-503a-4cff-babc-fd09768bba0d place-top type-dark"
                 data-id="tooltip"
                 id="technologyTip-PHP7"
               >
@@ -141,7 +140,7 @@ exports[`Card component renders optional technologies 1`] = `
                   aria-hidden="true"
                 >
                   
-  	.t64b2051f-40ee-4708-9968-12f651bc5383 {
+  	.t68269329-503a-4cff-babc-fd09768bba0d {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
@@ -149,10 +148,10 @@ exports[`Card component renders optional technologies 1`] = `
 	    padding: 8px 21px;
   	}
 
-  	.t64b2051f-40ee-4708-9968-12f651bc5383.place-top {
+  	.t68269329-503a-4cff-babc-fd09768bba0d.place-top {
         margin-top: -10px;
     }
-    .t64b2051f-40ee-4708-9968-12f651bc5383.place-top::before {
+    .t68269329-503a-4cff-babc-fd09768bba0d.place-top::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -160,7 +159,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 18px;
         height: 10px;
     }
-    .t64b2051f-40ee-4708-9968-12f651bc5383.place-top::after {
+    .t68269329-503a-4cff-babc-fd09768bba0d.place-top::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -175,10 +174,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(135deg);
     }
 
-    .t64b2051f-40ee-4708-9968-12f651bc5383.place-bottom {
+    .t68269329-503a-4cff-babc-fd09768bba0d.place-bottom {
         margin-top: 10px;
     }
-    .t64b2051f-40ee-4708-9968-12f651bc5383.place-bottom::before {
+    .t68269329-503a-4cff-babc-fd09768bba0d.place-bottom::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -186,7 +185,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 18px;
         height: 10px;
     }
-    .t64b2051f-40ee-4708-9968-12f651bc5383.place-bottom::after {
+    .t68269329-503a-4cff-babc-fd09768bba0d.place-bottom::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -201,10 +200,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(45deg);
     }
 
-    .t64b2051f-40ee-4708-9968-12f651bc5383.place-left {
+    .t68269329-503a-4cff-babc-fd09768bba0d.place-left {
         margin-left: -10px;
     }
-    .t64b2051f-40ee-4708-9968-12f651bc5383.place-left::before {
+    .t68269329-503a-4cff-babc-fd09768bba0d.place-left::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -212,7 +211,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 10px;
         height: 18px;
     }
-    .t64b2051f-40ee-4708-9968-12f651bc5383.place-left::after {
+    .t68269329-503a-4cff-babc-fd09768bba0d.place-left::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -227,10 +226,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(45deg);
     }
 
-    .t64b2051f-40ee-4708-9968-12f651bc5383.place-right {
+    .t68269329-503a-4cff-babc-fd09768bba0d.place-right {
         margin-left: 10px;
     }
-    .t64b2051f-40ee-4708-9968-12f651bc5383.place-right::before {
+    .t68269329-503a-4cff-babc-fd09768bba0d.place-right::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -238,7 +237,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 10px;
         height: 18px;
     }
-    .t64b2051f-40ee-4708-9968-12f651bc5383.place-right::after {
+    .t68269329-503a-4cff-babc-fd09768bba0d.place-right::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -261,7 +260,6 @@ exports[`Card component renders optional technologies 1`] = `
               class="svg-item"
             >
               <div
-                class=""
                 currentitem="false"
                 data-event="click mousestart mouseover"
                 data-event-off="mouseout"
@@ -274,7 +272,7 @@ exports[`Card component renders optional technologies 1`] = `
                 />
               </div>
               <div
-                class="__react_component_tooltip t06ce20fd-58ac-4e09-a90f-307ca859c263 place-top type-dark"
+                class="__react_component_tooltip t4ff66bc0-c4f0-47c1-827e-166d22ff543e place-top type-dark"
                 data-id="tooltip"
                 id="technologyTip-React"
               >
@@ -282,7 +280,7 @@ exports[`Card component renders optional technologies 1`] = `
                   aria-hidden="true"
                 >
                   
-  	.t06ce20fd-58ac-4e09-a90f-307ca859c263 {
+  	.t4ff66bc0-c4f0-47c1-827e-166d22ff543e {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
@@ -290,10 +288,10 @@ exports[`Card component renders optional technologies 1`] = `
 	    padding: 8px 21px;
   	}
 
-  	.t06ce20fd-58ac-4e09-a90f-307ca859c263.place-top {
+  	.t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-top {
         margin-top: -10px;
     }
-    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-top::before {
+    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-top::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -301,7 +299,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 18px;
         height: 10px;
     }
-    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-top::after {
+    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-top::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -316,10 +314,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(135deg);
     }
 
-    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-bottom {
+    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-bottom {
         margin-top: 10px;
     }
-    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-bottom::before {
+    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-bottom::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -327,7 +325,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 18px;
         height: 10px;
     }
-    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-bottom::after {
+    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-bottom::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -342,10 +340,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(45deg);
     }
 
-    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-left {
+    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-left {
         margin-left: -10px;
     }
-    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-left::before {
+    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-left::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -353,7 +351,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 10px;
         height: 18px;
     }
-    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-left::after {
+    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-left::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -368,10 +366,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(45deg);
     }
 
-    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-right {
+    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-right {
         margin-left: 10px;
     }
-    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-right::before {
+    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-right::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -379,7 +377,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 10px;
         height: 18px;
     }
-    .t06ce20fd-58ac-4e09-a90f-307ca859c263.place-right::after {
+    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-right::after {
         content: "";
         position: absolute;
         width: 10px;
