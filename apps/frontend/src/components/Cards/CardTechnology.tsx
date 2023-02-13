@@ -8,8 +8,9 @@ type Props = {
 export const CardTechnology: React.FC<Props> = ({ technology }) => {
   return (
     <div className={"svg-item"}>
-      <ReactSVG
+      <img
         src={`img/svg/${technology}.svg`}
+        className="svg-item__icon"
         data-tip
         data-for={`technologyTip-${technology}`}
         data-event={"click mousestart mouseover"}

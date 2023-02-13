@@ -17,6 +17,8 @@ export const Footer = () => {
           Powered by NextJS, and MongoDB.
           <br />
           <small>Built with TailwindCSS.</small>
+          <br />
+          <small>Deployed on Vercel.</small>
         </p>
       </div>
     </footer>
