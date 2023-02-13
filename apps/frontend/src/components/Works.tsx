@@ -1,4 +1,4 @@
-import { Card } from "./Cards/Card";
+import { Card } from "../components/Cards/Card";
 import { gql, useQuery } from "@apollo/client";
 
 export const workQuery = gql`
@@ -12,6 +12,11 @@ export const workQuery = gql`
       subTitle
       imagePath
       technologies
+      links {
+        text
+        type
+        href
+      }
     }
   }
 `;
@@ -25,7 +30,14 @@ export const Works: React.FC = () => {
   return (
     <div className={"grid-row info-row"}>
       {data.cards.map((work, index) => {
-        const { imagePath, title, subTitle, description, technologies } = work;
+        const {
+          imagePath,
+          title,
+          subTitle,
+          description,
+          technologies = [],
+          links = [],
+        } = work;
 
         return (
           <Card
@@ -35,6 +47,7 @@ export const Works: React.FC = () => {
             subTitle={subTitle}
             description={description}
             technologies={technologies}
+            links={links}
           />
         );
       })}

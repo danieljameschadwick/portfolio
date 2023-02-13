@@ -1,22 +1,17 @@
-.link
-{
-	&--primary
-	{
-		@apply text-white;
+.link {
+  &--primary {
+    @apply text-white;
 
-		&:hover
-		{
-			@apply underline;
-		}
-	}
-	
-	&--no-hover
-	{
-		@apply no-underline;
-		
-		&:hover
-		{
-			@apply no-underline;
-		}
-	}
+    &:hover {
+      @apply underline;
+    }
+  }
+
+  &--no-hover {
+    @apply no-underline;
+
+    &:hover {
+      @apply no-underline;
+    }
+  }
 }

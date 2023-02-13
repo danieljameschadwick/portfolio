@@ -1,4 +1,4 @@
-import { Card } from "./Cards/Card";
+import { Card } from "../components/Cards/Card";
 import { gql, useQuery } from "@apollo/client";
 
 export const skillsQuery = gql`

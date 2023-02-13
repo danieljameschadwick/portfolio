@@ -11,11 +11,18 @@ const typeDefs = /* GraphQL */ `
     subTitle: String
     imagePath: String
     technologies: [String]
+    links: [Link]
+  }
+
+  type Link {
+    type: String!
+    text: String!
+    href: String!
   }
 
   type Query {
-    card(_id: String!): Card,
-    cards(cardType: String): [Card],
+    card(_id: String!): Card
+    cards(cardType: String): [Card]
   }
 `;
 

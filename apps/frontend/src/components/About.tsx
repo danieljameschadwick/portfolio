@@ -1,4 +1,4 @@
-import { Attributes } from "./Attributes/Attributes";
+import { Attributes } from "../components/Attributes/Attributes";
 
 export const About: React.FC = () => {
   return (

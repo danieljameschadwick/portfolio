@@ -1,8 +1,8 @@
-import { About } from "../src/About";
-import { Skills } from "../src/Skills";
-import { Works } from "../src/Works";
-import { Header } from "../src/Header/Header";
-import { Footer } from "../src/Footer/Footer";
+import { About } from "../src/components/About";
+import { Skills } from "../src/components/Skills";
+import { Works } from "../src/components/Works";
+import { Header } from "../src/components/Header/Header";
+import { Footer } from "../src/components/Footer/Footer";
 
 const Index: React.FC = () => {
   return (

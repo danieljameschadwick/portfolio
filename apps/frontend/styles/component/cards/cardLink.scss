@@ -1,0 +1,14 @@
+.card-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background: #b0b0b0;
+  padding: 8px;
+  border-radius: 10px;
+  transition: 0.33s ease;
+
+  &:hover {
+    background: #9b9b9b;
+  }
+}

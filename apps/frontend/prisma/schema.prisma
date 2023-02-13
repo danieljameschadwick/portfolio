@@ -16,4 +16,11 @@ model Card {
   subTitle     String?
   imagePath    String?
   technologies String[]
+  links        Link[]
+}
+
+type Link {
+  type String
+  text String
+  href String
 }
