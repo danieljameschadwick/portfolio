@@ -33,6 +33,9 @@ const resolvers = {
         where: {
           cardType,
         },
+        orderBy: {
+          displayOrder: "asc",
+        },
       });
     },
   },
