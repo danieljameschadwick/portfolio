@@ -28,6 +28,10 @@ exports[`Footer component renders base 1`] = `
           <small>
             Built with TailwindCSS.
           </small>
+          <br />
+          <small>
+            Deployed on Vercel.
+          </small>
         </p>
       </div>
     </footer>

@@ -119,20 +119,17 @@ exports[`Card component renders optional technologies 1`] = `
             <div
               class="svg-item"
             >
-              <div
+              <img
+                class="svg-item__icon"
                 currentitem="false"
                 data-event="click mousestart mouseover"
                 data-event-off="mouseout"
                 data-for="technologyTip-PHP7"
                 data-tip="true"
-              >
-                <div
-                  data-src="img/svg/PHP7.svg"
-                  src=""
-                />
-              </div>
+                src="img/svg/PHP7.svg"
+              />
               <div
-                class="__react_component_tooltip t68269329-503a-4cff-babc-fd09768bba0d place-top type-dark"
+                class="__react_component_tooltip tb295fbc4-83f3-4e63-a181-efae4e370eac place-top type-dark"
                 data-id="tooltip"
                 id="technologyTip-PHP7"
               >
@@ -140,7 +137,7 @@ exports[`Card component renders optional technologies 1`] = `
                   aria-hidden="true"
                 >
                   
-  	.t68269329-503a-4cff-babc-fd09768bba0d {
+  	.tb295fbc4-83f3-4e63-a181-efae4e370eac {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
@@ -148,10 +145,10 @@ exports[`Card component renders optional technologies 1`] = `
 	    padding: 8px 21px;
   	}
 
-  	.t68269329-503a-4cff-babc-fd09768bba0d.place-top {
+  	.tb295fbc4-83f3-4e63-a181-efae4e370eac.place-top {
         margin-top: -10px;
     }
-    .t68269329-503a-4cff-babc-fd09768bba0d.place-top::before {
+    .tb295fbc4-83f3-4e63-a181-efae4e370eac.place-top::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -159,7 +156,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 18px;
         height: 10px;
     }
-    .t68269329-503a-4cff-babc-fd09768bba0d.place-top::after {
+    .tb295fbc4-83f3-4e63-a181-efae4e370eac.place-top::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -174,10 +171,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(135deg);
     }
 
-    .t68269329-503a-4cff-babc-fd09768bba0d.place-bottom {
+    .tb295fbc4-83f3-4e63-a181-efae4e370eac.place-bottom {
         margin-top: 10px;
     }
-    .t68269329-503a-4cff-babc-fd09768bba0d.place-bottom::before {
+    .tb295fbc4-83f3-4e63-a181-efae4e370eac.place-bottom::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -185,7 +182,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 18px;
         height: 10px;
     }
-    .t68269329-503a-4cff-babc-fd09768bba0d.place-bottom::after {
+    .tb295fbc4-83f3-4e63-a181-efae4e370eac.place-bottom::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -200,10 +197,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(45deg);
     }
 
-    .t68269329-503a-4cff-babc-fd09768bba0d.place-left {
+    .tb295fbc4-83f3-4e63-a181-efae4e370eac.place-left {
         margin-left: -10px;
     }
-    .t68269329-503a-4cff-babc-fd09768bba0d.place-left::before {
+    .tb295fbc4-83f3-4e63-a181-efae4e370eac.place-left::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -211,7 +208,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 10px;
         height: 18px;
     }
-    .t68269329-503a-4cff-babc-fd09768bba0d.place-left::after {
+    .tb295fbc4-83f3-4e63-a181-efae4e370eac.place-left::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -226,10 +223,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(45deg);
     }
 
-    .t68269329-503a-4cff-babc-fd09768bba0d.place-right {
+    .tb295fbc4-83f3-4e63-a181-efae4e370eac.place-right {
         margin-left: 10px;
     }
-    .t68269329-503a-4cff-babc-fd09768bba0d.place-right::before {
+    .tb295fbc4-83f3-4e63-a181-efae4e370eac.place-right::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -237,7 +234,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 10px;
         height: 18px;
     }
-    .t68269329-503a-4cff-babc-fd09768bba0d.place-right::after {
+    .tb295fbc4-83f3-4e63-a181-efae4e370eac.place-right::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -259,20 +256,17 @@ exports[`Card component renders optional technologies 1`] = `
             <div
               class="svg-item"
             >
-              <div
+              <img
+                class="svg-item__icon"
                 currentitem="false"
                 data-event="click mousestart mouseover"
                 data-event-off="mouseout"
                 data-for="technologyTip-React"
                 data-tip="true"
-              >
-                <div
-                  data-src="img/svg/React.svg"
-                  src=""
-                />
-              </div>
+                src="img/svg/React.svg"
+              />
               <div
-                class="__react_component_tooltip t4ff66bc0-c4f0-47c1-827e-166d22ff543e place-top type-dark"
+                class="__react_component_tooltip t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5 place-top type-dark"
                 data-id="tooltip"
                 id="technologyTip-React"
               >
@@ -280,7 +274,7 @@ exports[`Card component renders optional technologies 1`] = `
                   aria-hidden="true"
                 >
                   
-  	.t4ff66bc0-c4f0-47c1-827e-166d22ff543e {
+  	.t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
@@ -288,10 +282,10 @@ exports[`Card component renders optional technologies 1`] = `
 	    padding: 8px 21px;
   	}
 
-  	.t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-top {
+  	.t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5.place-top {
         margin-top: -10px;
     }
-    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-top::before {
+    .t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5.place-top::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -299,7 +293,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 18px;
         height: 10px;
     }
-    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-top::after {
+    .t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5.place-top::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -314,10 +308,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(135deg);
     }
 
-    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-bottom {
+    .t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5.place-bottom {
         margin-top: 10px;
     }
-    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-bottom::before {
+    .t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5.place-bottom::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -325,7 +319,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 18px;
         height: 10px;
     }
-    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-bottom::after {
+    .t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5.place-bottom::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -340,10 +334,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(45deg);
     }
 
-    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-left {
+    .t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5.place-left {
         margin-left: -10px;
     }
-    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-left::before {
+    .t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5.place-left::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -351,7 +345,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 10px;
         height: 18px;
     }
-    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-left::after {
+    .t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5.place-left::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -366,10 +360,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(45deg);
     }
 
-    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-right {
+    .t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5.place-right {
         margin-left: 10px;
     }
-    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-right::before {
+    .t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5.place-right::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -377,7 +371,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 10px;
         height: 18px;
     }
-    .t4ff66bc0-c4f0-47c1-827e-166d22ff543e.place-right::after {
+    .t2f7ac0f4-5d6d-4992-ad1b-1ab40e96c8f5.place-right::after {
         content: "";
         position: absolute;
         width: 10px;
