@@ -5,6 +5,7 @@ type Props = {
   technology: string;
 };
 
+// @TODO: Add technology key, and text separately e.g. label, value.
 export const CardTechnology: React.FC<Props> = ({ technology }) => {
   return (
     <div className={"svg-item"}>
