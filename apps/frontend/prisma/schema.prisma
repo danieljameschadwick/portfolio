@@ -1,26 +1,39 @@
 generator client {
-  provider = "prisma-client-js"
+  provider        = "prisma-client-js"
+  previewFeatures = ["referentialIntegrity"]
 }
 
 datasource db {
-  provider = "mongodb"
-  url      = env("ORM_CLIENT_URL")
+  provider     = "mysql"
+  url          = env("ORM_CLIENT_URL")
+  relationMode = "prisma"
 }
 
 model Card {
-  id           String   @id @map("_id")
+  id           Int          @id @default(autoincrement())
   title        String
   cardType     String
   description  String
   displayOrder Int
   subTitle     String?
   imagePath    String?
-  technologies String[]
+  technologies Technology[]
   links        Link[]
 }
 
-type Link {
-  type String
-  text String
-  href String
+model Technology {
+  id          Int    @id @default(autoincrement())
+  card        Card   @relation(fields: [cardId], references: [id])
+  cardId      Int
+  handle      String
+  displayName String
+}
+
+model Link {
+  id     Int    @id @default(autoincrement())
+  card   Card   @relation(fields: [cardId], references: [id])
+  cardId Int
+  type   String
+  text   String
+  href   String
 }
