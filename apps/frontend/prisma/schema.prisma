@@ -13,12 +13,14 @@ model Card {
   id           Int          @id @default(autoincrement())
   title        String
   cardType     String
-  description  String
+  description  String       @db.Text
   displayOrder Int
   subTitle     String?
   imagePath    String?
   technologies Technology[]
   links        Link[]
+
+  @@index([cardType])
 }
 
 model Technology {
