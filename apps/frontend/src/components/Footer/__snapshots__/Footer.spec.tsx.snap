@@ -23,7 +23,7 @@ exports[`Footer component renders base 1`] = `
           </span>
         </div>
         <p>
-          Powered by NextJS, and MongoDB.
+          Powered by NextJS, and MySQL.
           <br />
           <small>
             Built with TailwindCSS.

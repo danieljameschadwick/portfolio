@@ -10,7 +10,7 @@ Splash                    |
 
 ## frontend
 
-NextJS deployed on Vercel, using API routes with Prisma and MongoDB Atlas.
+NextJS deployed on Vercel, using API routes with Prisma, MySQL hosted on Planetscale.
 
 ## backend
 
@@ -25,7 +25,3 @@ yarn prisma:migrate dev --name <name>
 ```
 
 > Note: prisma migrate is not currently supported on the MongoDB provider.
-
-### Legacy: 
-
-NestJS application using MongoDB 4.4.

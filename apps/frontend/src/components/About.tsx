@@ -8,10 +8,10 @@ export const About: React.FC = () => {
           <h2 className={"heading"}>About Me</h2>
 
           <p>
-            Software Developer at i6 working with React, JavaScript/TypeScript,
-            Jest, React Testing Library, Redux, LESS, i18n. Also experienced
-            using PHP, Symfony, Doctrine ORM, MySQL 8.0, MongoDB, PHPUnit,
-            Behat, CircleCI, RabbitMQ, AWS, Google Cloud, and Docker.
+            Software Developer at Reward Gateway working with PHP, Symfony,
+            MySQL 8.0, MongoDB, PHPUnit, AWS, and Docker. Also experienced using
+            React, JavaScript/TypeScript, Jest, React Testing Library, Redux,
+            LESS, i18n, Behat, CircleCI, RabbitMQ, Google Cloud, and Docker.
           </p>
 
           <p>
