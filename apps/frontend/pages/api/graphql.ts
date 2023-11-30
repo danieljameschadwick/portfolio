@@ -21,7 +21,7 @@ const typeDefs = /* GraphQL */ `
   }
 
   type Query {
-    card(_id: String!): Card
+    card(id: String!): Card
     cards(cardType: String): [Card]
   }
 `;
