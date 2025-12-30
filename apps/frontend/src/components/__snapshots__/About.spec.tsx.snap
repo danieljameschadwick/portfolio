@@ -129,7 +129,7 @@ exports[`About component renders base 1`] = `
             class="list"
           >
             <li>
-              PHP8
+              PHP
             </li>
             <li>
               Symfony Framework

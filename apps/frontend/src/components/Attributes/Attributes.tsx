@@ -28,7 +28,7 @@ export const Attributes: React.FC = () => {
             "Responsible for developing applications which can scale to the masses - for both internal users or public. Experienced in developing standalone applications with cached data, microservices and monolithic applications."
           }
           skills={[
-            "PHP8",
+            "PHP",
             "Symfony Framework",
             "Doctrine ORM",
             "RESTful APIs",
