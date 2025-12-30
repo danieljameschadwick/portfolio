@@ -129,7 +129,7 @@ exports[`Card component renders optional technologies 1`] = `
                 src="img/svg/PHP7.svg"
               />
               <div
-                class="__react_component_tooltip t5a3b6546-a650-4bd4-a421-94751f4b097f place-top type-dark"
+                class="__react_component_tooltip tdff79f57-5b5d-4333-ac82-eaa10cec3167 place-top type-dark"
                 data-id="tooltip"
                 id="technologyTip-PHP7"
               >
@@ -137,7 +137,7 @@ exports[`Card component renders optional technologies 1`] = `
                   aria-hidden="true"
                 >
                   
-  	.t5a3b6546-a650-4bd4-a421-94751f4b097f {
+  	.tdff79f57-5b5d-4333-ac82-eaa10cec3167 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
@@ -145,10 +145,10 @@ exports[`Card component renders optional technologies 1`] = `
 	    padding: 8px 21px;
   	}
 
-  	.t5a3b6546-a650-4bd4-a421-94751f4b097f.place-top {
+  	.tdff79f57-5b5d-4333-ac82-eaa10cec3167.place-top {
         margin-top: -10px;
     }
-    .t5a3b6546-a650-4bd4-a421-94751f4b097f.place-top::before {
+    .tdff79f57-5b5d-4333-ac82-eaa10cec3167.place-top::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -156,7 +156,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 18px;
         height: 10px;
     }
-    .t5a3b6546-a650-4bd4-a421-94751f4b097f.place-top::after {
+    .tdff79f57-5b5d-4333-ac82-eaa10cec3167.place-top::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -171,10 +171,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(135deg);
     }
 
-    .t5a3b6546-a650-4bd4-a421-94751f4b097f.place-bottom {
+    .tdff79f57-5b5d-4333-ac82-eaa10cec3167.place-bottom {
         margin-top: 10px;
     }
-    .t5a3b6546-a650-4bd4-a421-94751f4b097f.place-bottom::before {
+    .tdff79f57-5b5d-4333-ac82-eaa10cec3167.place-bottom::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -182,7 +182,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 18px;
         height: 10px;
     }
-    .t5a3b6546-a650-4bd4-a421-94751f4b097f.place-bottom::after {
+    .tdff79f57-5b5d-4333-ac82-eaa10cec3167.place-bottom::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -197,10 +197,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(45deg);
     }
 
-    .t5a3b6546-a650-4bd4-a421-94751f4b097f.place-left {
+    .tdff79f57-5b5d-4333-ac82-eaa10cec3167.place-left {
         margin-left: -10px;
     }
-    .t5a3b6546-a650-4bd4-a421-94751f4b097f.place-left::before {
+    .tdff79f57-5b5d-4333-ac82-eaa10cec3167.place-left::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -208,7 +208,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 10px;
         height: 18px;
     }
-    .t5a3b6546-a650-4bd4-a421-94751f4b097f.place-left::after {
+    .tdff79f57-5b5d-4333-ac82-eaa10cec3167.place-left::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -223,10 +223,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(45deg);
     }
 
-    .t5a3b6546-a650-4bd4-a421-94751f4b097f.place-right {
+    .tdff79f57-5b5d-4333-ac82-eaa10cec3167.place-right {
         margin-left: 10px;
     }
-    .t5a3b6546-a650-4bd4-a421-94751f4b097f.place-right::before {
+    .tdff79f57-5b5d-4333-ac82-eaa10cec3167.place-right::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -234,7 +234,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 10px;
         height: 18px;
     }
-    .t5a3b6546-a650-4bd4-a421-94751f4b097f.place-right::after {
+    .tdff79f57-5b5d-4333-ac82-eaa10cec3167.place-right::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -266,7 +266,7 @@ exports[`Card component renders optional technologies 1`] = `
                 src="img/svg/React.svg"
               />
               <div
-                class="__react_component_tooltip t20cf2736-aa87-4765-8d0b-bc15daff616a place-top type-dark"
+                class="__react_component_tooltip t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7 place-top type-dark"
                 data-id="tooltip"
                 id="technologyTip-React"
               >
@@ -274,7 +274,7 @@ exports[`Card component renders optional technologies 1`] = `
                   aria-hidden="true"
                 >
                   
-  	.t20cf2736-aa87-4765-8d0b-bc15daff616a {
+  	.t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7 {
 	    color: #fff;
 	    background: #222;
 	    border: 1px solid transparent;
@@ -282,10 +282,10 @@ exports[`Card component renders optional technologies 1`] = `
 	    padding: 8px 21px;
   	}
 
-  	.t20cf2736-aa87-4765-8d0b-bc15daff616a.place-top {
+  	.t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7.place-top {
         margin-top: -10px;
     }
-    .t20cf2736-aa87-4765-8d0b-bc15daff616a.place-top::before {
+    .t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7.place-top::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -293,7 +293,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 18px;
         height: 10px;
     }
-    .t20cf2736-aa87-4765-8d0b-bc15daff616a.place-top::after {
+    .t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7.place-top::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -308,10 +308,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(135deg);
     }
 
-    .t20cf2736-aa87-4765-8d0b-bc15daff616a.place-bottom {
+    .t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7.place-bottom {
         margin-top: 10px;
     }
-    .t20cf2736-aa87-4765-8d0b-bc15daff616a.place-bottom::before {
+    .t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7.place-bottom::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -319,7 +319,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 18px;
         height: 10px;
     }
-    .t20cf2736-aa87-4765-8d0b-bc15daff616a.place-bottom::after {
+    .t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7.place-bottom::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -334,10 +334,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(45deg);
     }
 
-    .t20cf2736-aa87-4765-8d0b-bc15daff616a.place-left {
+    .t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7.place-left {
         margin-left: -10px;
     }
-    .t20cf2736-aa87-4765-8d0b-bc15daff616a.place-left::before {
+    .t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7.place-left::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -345,7 +345,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 10px;
         height: 18px;
     }
-    .t20cf2736-aa87-4765-8d0b-bc15daff616a.place-left::after {
+    .t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7.place-left::after {
         content: "";
         position: absolute;
         width: 10px;
@@ -360,10 +360,10 @@ exports[`Card component renders optional technologies 1`] = `
         transform: rotate(45deg);
     }
 
-    .t20cf2736-aa87-4765-8d0b-bc15daff616a.place-right {
+    .t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7.place-right {
         margin-left: 10px;
     }
-    .t20cf2736-aa87-4765-8d0b-bc15daff616a.place-right::before {
+    .t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7.place-right::before {
         content: "";
         background-color: inherit;
         position: absolute;
@@ -371,7 +371,7 @@ exports[`Card component renders optional technologies 1`] = `
         width: 10px;
         height: 18px;
     }
-    .t20cf2736-aa87-4765-8d0b-bc15daff616a.place-right::after {
+    .t6c7b4ddf-d34c-49f0-84fa-36d99a8cf5c7.place-right::after {
         content: "";
         position: absolute;
         width: 10px;
