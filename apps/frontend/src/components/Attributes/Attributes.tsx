@@ -9,7 +9,7 @@ export const Attributes: React.FC = () => {
         <Attribute
           title={"Frontend"}
           caption={
-            "Specialising in response, modern, designs which translate to any business ranging from small businesses to large enterprises."
+            "Specialising in responsive, modern, designs which translate to any business ranging from small businesses to large enterprises."
           }
           skills={[
             "React",
@@ -28,8 +28,8 @@ export const Attributes: React.FC = () => {
             "Responsible for developing applications which can scale to the masses - for both internal users or public. Experienced in developing standalone applications with cached data, microservices and monolithic applications."
           }
           skills={[
-            "PHP7",
-            "Symfony Framework 3/4",
+            "PHP",
+            "Symfony Framework",
             "Doctrine ORM",
             "RESTful APIs",
             "OOP, SOLID, MVC",

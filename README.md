@@ -4,13 +4,13 @@ My personal portfolio for danielchadwick.co.uk hosting my: skills, technologies 
 
 ## UI
 
-Splash                    | 
-:-------------------------:|
-![Scores page on desktop.](./docs/portfolio-splash.png) |
+|                           Splash                           |
+| :--------------------------------------------------------: |
+| ![Portfolio page on desktop.](./docs/portfolio-splash.png) |
 
 ## frontend
 
-NextJS deployed on Vercel, using API routes with Prisma, MySQL hosted on Planetscale.
+NextJS deployed on Vercel, using API routes with Prisma, MongoDB hosted on Atlas.
 
 ## backend
 

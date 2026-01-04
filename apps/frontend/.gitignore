@@ -3,6 +3,9 @@
 /.pnp
 .pnp.js
 
+# prisma
+/prisma/app
+
 # testing
 /coverage
 

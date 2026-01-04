@@ -30,7 +30,7 @@ exports[`Attributes component renders base 1`] = `
           <p
             class="text"
           >
-            Specialising in response, modern, designs which translate to any business ranging from small businesses to large enterprises.
+            Specialising in responsive, modern, designs which translate to any business ranging from small businesses to large enterprises.
           </p>
           <h3
             class="heading"
@@ -104,10 +104,10 @@ exports[`Attributes component renders base 1`] = `
             class="list"
           >
             <li>
-              PHP7
+              PHP
             </li>
             <li>
-              Symfony Framework 3/4
+              Symfony Framework
             </li>
             <li>
               Doctrine ORM

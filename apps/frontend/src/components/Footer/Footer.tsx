@@ -14,7 +14,7 @@ export const Footer = () => {
         </div>
 
         <p>
-          Powered by NextJS, and MySQL.
+          Powered by NextJS, and MongoDB.
           <br />
           <small>Built with TailwindCSS.</small>
           <br />
